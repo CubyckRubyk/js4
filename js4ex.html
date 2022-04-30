@@ -171,9 +171,40 @@
 // }
 // print (list);
     // - створити функцію яка повертає найменьше число з масиву
+// let arr = [1, 2, 11];
+// function minimum () {
+//     let min = Infinity;
+//     for (let i = 0; i < arr.length; i++) {
+//
+//      if (arr[i] < min) {
+//          min = arr[i];
+//      }
+//     } return min;
+// }
+// minimum(arr);
+// let arr = [1, 2, 11, -3];
+// function minimum(array)
+// { let min = array[0];
+//     for (const item of array) {
+//         if (item < min) {
+//             min = item;
+//         }
+//
+// } return min;}
+// console.log(minimum(arr));
 
+// - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
 
-    // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
+let arr = [1,2,10];
+function sum(array){
+    let item = 0;
+    for (let i = 0; i < array.length; i++) {
+        item += array[i];
+
+    } return item;
+}
+
+console.log(sum (arr));
 
 </script>
 </body>
